@@ -84,6 +84,12 @@ Token: eyJhbGciOiJIUz...
 El bot extraerá automáticamente el ID del servidor desde la URL y establecerá una conexión WebSocket.
 
 ---
+/**
+ * Basado en el trabajo original de:
+ * https://github.com/ExtremTechniker/nitrado-websocket
+ * Autor: ExtremTechniker
+ * Adaptado para integración con Discord y Rust Console Edition
+ */
 
 
 ## 📝 Licencia
