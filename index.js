@@ -1,4 +1,5 @@
 // discord-nitrado-bot.js  
+require('dotenv').config();  
 const { Client, GatewayIntentBits, SlashCommandBuilder, REST, Routes } = require('discord.js');  
 const { NitradoWebSocketManager, NitradoWebSocketBot } = require('./nitrado-websocket-manager');  
   
@@ -342,10 +343,10 @@ class DiscordNitradoBot {
 // ==================== CONFIGURACIÓN Y INICIO ====================  
   
 const config = {  
-  discordToken: 'TU_DISCORD_BOT_TOKEN',  
-  applicationId: 'TU_APPLICATION_ID',  
-  nitradoClientId: 'TU_NITRADO_CLIENT_ID',  
-  nitradoClientSecret: 'TU_NITRADO_CLIENT_SECRET'  
+  discordToken: process.env.DISCORD_TOKEN,  
+  applicationId: process.env.APPLICATION_ID,  
+  nitradoClientId: process.env.NITRADO_CLIENT_ID,  
+  nitradoClientSecret: process.env.NITRADO_CLIENT_SECRET  
 };  
   
 const bot = new DiscordNitradoBot(config);  
