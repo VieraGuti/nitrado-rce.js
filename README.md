@@ -91,7 +91,7 @@ El bot extraerá automáticamente el ID del servidor desde la URL y establecerá
  * Adaptado para integración con Discord y Rust Console Edition
  */
 
-
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=VieraGuti/nitrado-rce)
 ## 📝 Licencia
 
 Este proyecto está bajo licencia MIT. Ver el archivo `LICENSE` para más detalles.
